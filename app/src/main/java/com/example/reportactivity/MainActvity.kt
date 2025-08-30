@@ -122,7 +122,7 @@ class MainActivity : ComponentActivity() {
                     composable("register") {
                         RegisterScreen(navController = navController)
                     }
-                    composable("dashboard") {
+                    composable("dashboards") {
                         UserDashboard()
                     }
                 }
